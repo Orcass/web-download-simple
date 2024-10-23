@@ -1,0 +1,14 @@
+<!-- Pengumuman -->
+    <div id="announcement" class="alert alert-info announcement" role="alert">
+        <strong>Pengumuman!</strong> Website ini sedang dalam perbaikan. Terima kasih atas kesabarannya.
+        <button type="button" class="close" aria-label="Close" onclick="closeAnnouncement()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div> 
+    <!-- End Pengumuman -->
+
+backup shape:
+<div class="header-shape">
+                <img src="https://cdn.ayroui.com/1.0/images/header/header-shape.svg" alt="shape">
+            </div>
+end backup

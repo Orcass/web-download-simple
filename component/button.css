@@ -1,0 +1,54 @@
+/* Section Styling */
+.download-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+/* Left content styling */
+.left-content h2, .left-content h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.left-content p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.left-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Right content styling */
+.right-content h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.download-buttons .btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsiveness */
+@media (max-width: 767px) {
+    .download-section .left-content, .download-section .right-content {
+        margin-bottom: 30px;
+    }
+
+    .download-buttons .btn {
+        width: 100%;
+    }
+}

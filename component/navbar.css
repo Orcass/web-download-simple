@@ -1,0 +1,45 @@
+/* Default styles for navbar */
+.navbar {
+    padding: 10px 10px;
+}
+
+.navbar-brand img {
+    height: 70px; /* Default logo size */
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+/* Adjust navbar for small screens (mobile devices) */
+@media (max-width: 576px) {
+    .navbar {
+        padding: 10px 15px; /* Reduce padding on mobile */
+    }
+
+    .navbar-brand img {
+        max-height: 40px; /* Reduce logo size */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px; /* Smaller font size for links on mobile */
+        padding: 5px 10px; /* Reduce padding for space */
+    }
+
+    .navbar-collapse {
+        padding: 5px 0; /* Reduce padding for collapsed navbar */
+    }
+}
+
+/* Optional: Hide navbar completely when scrolling down on mobile */
+@media (max-width: 576px) {
+    .navbar.fixed-top {
+        transition: top 0.3s;
+    }
+
+    /* Hide navbar when user scrolls down */
+    .navbar.hidden {
+        top: -70px; /* Adjust based on navbar height */
+    }
+}

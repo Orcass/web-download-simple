@@ -1,0 +1,24 @@
+.announcement {
+    top: -100px; /* Memulai di luar layar */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 600px;
+    z-index: 1000;
+    background-color: #17a2b8; /* Warna alert-info */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: bottom 0.5s ease-in-out;
+}
+
+/* Kelas untuk menampilkan pengumuman 
+.announcement.show {
+    top: 20px; /* Muncul di 20px dari bawah layar 
+}
+
+/* Kelas untuk menyembunyikan pengumuman setelah ditutup
+.announcement.hidden {
+    top: -100px; /* Pastikan keluar dari tampilan saat ditutup 
+}*/
